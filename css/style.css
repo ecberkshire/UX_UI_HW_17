@@ -7,33 +7,66 @@
     width: 23%;
     padding: 1%;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 nav {
-    width: 73%;
-    padding: 1%
+    width: 100%;
+    padding: 1%;
+    background-color: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    align-items: space-evenly
 }
 ul {
     width: 50%;
     margin-left: auto
 }
 .heroimg {
-    height: 600px;
-    padding: 25px
+    height: stretch;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
 }
 .content {
     width: 500px;
-    margin: 0 auto
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 footer {
-    background color: #373738;
-    vertical-align: bottom
-
+    background-color: #373738;
+    align-items: space-between;
+    text-align: center;
+    padding: 14px 16px;
 }
 .ulfooter {
     display:inline-block;
-    vertical-align: top
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
+h1 {
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ p {
+     align-items: center;
+     font-size: 18px;
+ }
 
+ button {
+     margin: 15px;
+     padding: 10px;
+     font-weight: bold;
+     background-color: peachpuff
+
+ }
